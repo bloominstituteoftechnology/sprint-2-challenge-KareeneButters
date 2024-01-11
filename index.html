@@ -75,23 +75,23 @@ let myGrid = [["🟦","🟥","🟦"],["🟦","🟦","🟦"],["🟥","🟦","🟥
     }
   }
 
-  // Join the words back together into a single string
+
   return words.join(' ');
 }
 
-    // 👉 CHALLENGE 5 (bonus, NOT graded)
+
     function normalizePhoneNumber(number) {
-  // Ensure the input is a string and has exactly 10 digits
+
   if (typeof number !== 'string' || number.length !== 10) {
     return "Invalid input. Please provide a string of exactly 10 digits.";
   }
 
-  // Format the number
+
   return `(${number.substring(0, 3)}) ${number.substring(3, 6)}-${number.substring(6)}`;
 }
 
 let phoneNumber = '1234567890';
-console.log(normalizePhoneNumber(phoneNumber)); // Outputs: '(123) 456-7890'
+console.log(normalizePhoneNumber(phoneNumber)); 
 
 
     // 👉 CHALLENGE 6 (bonus, NOT graded)
